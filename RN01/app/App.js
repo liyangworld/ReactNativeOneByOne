@@ -6,10 +6,11 @@
 import React,{Component} from 'react';
 import {Linking,StyleSheet,StatusBar,View,ScrollView,Text} from 'react-native';
 
+const englishWebsite = 'http://facebook.github.io/react-native/docs/getting-started.html' ;
+const chineseWebsite = 'http://reactnative.cn/docs/0.45/getting-started.html' ;
+
 class App extends Component {
     render(){
-        const englishWebsite = 'http://facebook.github.io/react-native/docs/getting-started.html' ;
-        const chineseWebsite = 'http://reactnative.cn/docs/0.45/getting-started.html' ;
         return (
         <View style={{flex:1,}}>
             <StatusBar hidden={false} backgroundColor={'#00f'}/>
@@ -95,7 +96,7 @@ class App extends Component {
                             </Text>
                             <ScrollView horizontal={true}>
                                 <Text style={[styles.code]}>
-                                {`android {
+{`android {
     ...
     defaultConfig { ... }
     signingConfigs {
