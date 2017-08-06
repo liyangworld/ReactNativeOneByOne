@@ -13,7 +13,7 @@ class BookRankTabScreen extends Component {
         tabBarLabel:'排行榜',
         tabBarIcon:({tintColor}) => (
             <Icon name="signal" size={25} color={tintColor}/>
-        ),
+        )
     });
     render(){
         return (

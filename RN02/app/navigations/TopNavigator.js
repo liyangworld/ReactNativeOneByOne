@@ -27,7 +27,7 @@ const TopNavigator = StackNavigator(
     },
     {
         initialRouteName:'Main',
-        headerMode:'float',
+        headerMode:'screen',
         navigationOptions:{
             headerStyle:{
                 backgroundColor:'#00f',
